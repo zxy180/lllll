@@ -14,7 +14,6 @@ Input: Retrieval JSON files from Step 1
 Output: Updated JSON files with edit distance (Levenshtein distance) and semantic similarity between original/perturbed queries
 Step 3: Evaluate Generate Attack Success Rate
 Run the inference script to calculate the final attack performance.
-bash
 python infer.py
 
 
